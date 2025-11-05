@@ -29,7 +29,7 @@
     </section>
 
     <section id="experiencia">
-      <ExperienciaComponente />
+      <Experiencia />
     </section>
 
     <section id="proyectos" class="proyectos">
@@ -40,8 +40,8 @@
         <div></div>
         <div></div>
       </div>
-      <h2>Proyectos</h2>
-      <ProyectosComponente />
+      <h2>MisProyectos</h2>
+      <MisProyectos />
     </section>
     <footer style="text-align:center;padding:30px 0;color:#6b7a86">© 2025 Maximiliano A Morales - Portafolio web - UTN FRSR</footer>
   </div>
@@ -67,8 +67,8 @@ header nav a:hover {
 </style>
 
 <script setup>
-import ProyectosComponente from './components/ProyectosComponente.vue'
-import ExperienciaComponente from './components/ExperienciaComponente.vue'
+import MisProyectos from './components/MisProyectos.vue'
+import Experiencia from './components/Experiencia.vue'
 
 import { onMounted, onUnmounted } from 'vue' 
 import confetti from 'canvas-confetti'

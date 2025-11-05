@@ -3,15 +3,27 @@
     <div class="card">
       <img src="../assets/java1.PNG" alt="Java Project 1" />
       <h3>Proyecto Integrador en Java - JuegoAhorjado en Consola</h3>
-      <p>Este proyecto integrador, desarrollado en Java para consola, reinventa el clásico juego del "Ahorcado" con un enfoque educativo. El jugador se enfrenta a una serie de adivinanzas centradas en conceptos clave, palabras reservadas y fundamentos de la programación en Java.</p>
-      <a href="#" class="link">Ver proyecto</a>
+      <p>Este proyecto integrador, desarrollado en Java para consola, reinventa el clásico juego del "Ahorcado" con un
+        enfoque educativo. El jugador se enfrenta a una serie de adivinanzas centradas en conceptos clave, palabras
+        reservadas y fundamentos de la programación en Java.</p>
+
+      <a href="https://github.com/HotCode2025/PI_SegundoSemestre-ByteNine" target="_blank" rel="noopener noreferrer"
+        class="link">
+        Ver proyecto
+      </a>
     </div>
 
     <div class="card">
       <img src="../assets/java2.PNG" alt="Java Project 2" />
       <h3>Proyecto Integrador en Java - JuegoAhorajado en Interfaz Gráfica</h3>
-      <p>Este proyecto integrador presenta una versión gráfica e interactiva del clásico juego "Ahorcado", desarrollada íntegramente en Java (Swing/JavaFX). El juego desafía al usuario con adivinanzas sobre conceptos, palabras clave y fundamentos de la programación en Java, todo presentado en una interfaz de usuario amigable e intuitiva.</p>
-      <a href="#" class="link">Ver proyecto</a>
+      <p>Este proyecto integrador presenta una versión gráfica e interactiva del clásico juego "Ahorcado", desarrollada
+        íntegramente en Java (Swing/JavaFX). El juego desafía al usuario con adivinanzas sobre conceptos, palabras clave
+        y fundamentos de la programación en Java, todo presentado en una interfaz de usuario amigable e intuitiva.</p>
+
+      <a href="https://github.com/HotCode2025/PI_SegundoSemestre-ByteNine" target="_blank" rel="noopener noreferrer"
+        class="link">
+        Ver proyecto
+      </a>
     </div>
   </div>
 </template>
