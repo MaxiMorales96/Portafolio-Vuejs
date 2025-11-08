@@ -4,11 +4,11 @@
       <nav>
         <a href="#">Inicio</a>
         <a href="#contacto">Contacto</a>
-        <a href="educacion">Educación y Cursos</a>
         <a href="#experiencia">Experiencia</a>
         <a href="#proyectos">Proyectos</a>
-        <a href="habilidad">Habilidades</a>
-        <a href="intereses">Intereses</a>
+        <a href="#educacion">Educación y Cursos</a>
+        <a href="#habilidad">Habilidades</a>
+        <a href="#intereses">Intereses</a>
       </nav>
     </header>
 
@@ -45,6 +45,43 @@
       <h2>MisProyectos</h2>
       <MisProyectos />
     </section>
+
+    <section id="educacion" class="proyectos">
+        <div class="linea-decorativa">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h2>Educación y Cursos</h2>
+      <Educacion />
+    </section>
+
+    <section id="habilidad" class="proyectos">
+        <div class="linea-decorativa">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h2>Habilidades</h2>
+      <Habilidades />
+    </section>
+
+    <section id="intereses" class="proyectos">
+        <div class="linea-decorativa">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h2>Intereses</h2>
+      <Intereses />
+    </section>
+    
     <footer style="text-align:center;padding:30px 0;color:#6b7a86">© 2025 Maximiliano A Morales - Portafolio web - UTN
       FRSR</footer>
   </div>
@@ -72,6 +109,9 @@ header nav a:hover {
 <script setup>
 import MisProyectos from './components/MisProyectos.vue'
 import Experiencia from './components/Experiencia.vue'
+import Educacion from './components/Educacion.vue'
+import Habilidades from './components/Habilidades.vue'
+import Intereses from './components/Intereses.vue'
 
 import { onMounted, onUnmounted } from 'vue'
 import confetti from 'canvas-confetti'
@@ -109,5 +149,4 @@ onMounted(() => {
     origin: { y: 0.6 },
   });
 });
-
 </script>

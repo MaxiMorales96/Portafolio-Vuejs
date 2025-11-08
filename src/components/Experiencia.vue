@@ -40,7 +40,7 @@
 
 .proyectos h2 {
   font-size: 2.5em;
-  color: #333;
+  color: #3a6ea5;
   margin-bottom: 40px;
 }
 </style>
